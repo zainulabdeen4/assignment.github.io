@@ -1,0 +1,75 @@
+
+
+.top-header {
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #aaa;
+    background-color: white;
+}
+
+.promotion{
+background-image: url("../img/counter-bg.jpg");
+height: 28%;
+    text-align: center;
+    margin: auto;
+}
+
+.products{
+height:363px;
+}
+
+.products img{
+height:190px;
+width:225px
+}
+
+.header-list{
+	float:right;
+
+display:inline;
+}
+.wrapper{
+width:1140px;
+height:auto;
+margin: auto;
+}
+
+.header-item{
+display:inline;
+}
+
+
+// navigation 
+
+.nav-search{
+padding:auto;
+}
+
+.nav-icon{
+display:inline;	
+}
+
+
+
+ //slider nav
+
+
+.owl-carousel {
+position: relative;
+margin:auto;
+}
+.owl-prev,
+.owl-next {
+position: absolute;
+top: 50%;
+margin-top: -10px; // Half of the prev/next buttons height here in negatives to center them perfectly
+}
+.owl-prev {
+left: -15;
+}
+.owl-next {
+right: 0;
+}
+
+.owl-prev i, .owl-next i {transform : scale(2,6); color: #ccc;}
+
